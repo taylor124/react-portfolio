@@ -1,0 +1,14 @@
+Front-end Proficiencies
+    HTML
+    CSS
+    JavaScript
+    jQuery
+    Responsive Design
+    React
+    Bootstrap
+
+Back-end Proficiencies
+    APIs
+    Node
+    Express
+    MySQL, Sequelize
