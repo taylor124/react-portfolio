@@ -7,7 +7,7 @@ function About() {
             <div className='about'>
                 <h2>
                     About me
-                    <img src='/assets/img/taylor.jpg' alt='' width='100' style={{float: 'left', margin: '5px'}} />
+                    <img src={process.env.PUBLIC_URL + '/assets/img/taylor.jpg'} alt='' width='100' style={{float: 'left', margin: '5px'}} />
             </h2>
                 <p>
                     Hello, My name is Taylor Van Scoy.

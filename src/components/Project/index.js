@@ -37,6 +37,12 @@ function Project() {
             link: 'https://gist.github.com/taylor124/ac389b237dc57846d4ca09f8eee22ead',
             image: 'regex-tutorial.jpg',
             repo: 'https://gist.github.com/taylor124/ac389b237dc57846d4ca09f8eee22ead'
+        },
+        {
+            projectName: 'Bookend',
+            link: 'http://bookend-recommendations.herokuapp.com/',
+            image: 'bookendimg.jpg',
+            repo: 'https://github.com/project3UOT/bookend'
         }
     ])
 
@@ -46,7 +52,7 @@ function Project() {
                 <div className="card">
                     <a href={project.link} style={{ textDecoration: "none", color: "black" }} >
                         <img
-                            src={`/assets/img/${project.image}`}
+                            src={process.env.PUBLIC_URL + `/assets/img/${project.image}`}
                             alt={project.name}
                             style={{ width: "100%" }}
                         />
